@@ -4,7 +4,7 @@ Purpose: convert PDF of important data about neutron scattering lengths and cros
 ## About
 Comma-separated values (CSV) files are a text file that usually uses a comma to separate each unique value [[1]](#1). They are often used as data-storage and tabulation files.
 
-The PDF in question is a 10-page, 110kb file available <a href = "http://www.ati.ac.at/~neutropt/scattering/Scattering_lengths_table_20010419.pdf">here</a>, provided by the Vienna University of Technology (<a href = "https://www.tuwien.at/en/">click</a> for English[[#3]](#3)) [[2]](#2). The webpage on which this file is available was last updated 02/14/2001 [[#2]](2).
+The PDF in question is a 10-page, 110kb file available <a href = "http://www.ati.ac.at/~neutropt/scattering/Scattering_lengths_table_20010419.pdf">here</a>, provided by the Vienna University of Technology (<a href = "https://www.tuwien.at/en/">click</a> for English[[3]](#3)) [[2]](#2). The webpage on which this file is available was last updated 02/14/2001 [[#2]](2).
 
 The column headers are described in the first paragraph of [[#2]](#2), but to reiterate: <br />
 
@@ -34,7 +34,7 @@ This project concludes with a reflection: consider storing experimental data bot
 
 <li>
 <a id = "2">[2]</a>
-<a href = "http://www.ati.ac.at/~neutropt/scattering/table.html">Neutron Scattering Lengths</a>. Vienna University of Technology. Retrieved September 25, 2020.
+<a href = "http://www.ati.ac.at/~neutropt/scattering/table.html">Bound Coherent Neutron Scattering Lengths</a>. Vienna University of Technology. Retrieved September 25, 2020.
 </li>
 
 <li>
