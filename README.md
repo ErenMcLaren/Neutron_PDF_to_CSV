@@ -15,21 +15,21 @@ This project concludes with a reflection: consider storing experimental data bot
 ## References
 <li>
 <a id = "1">[1]</a>
-<a href = "https://tools.ietf.org/html/rfc4180#section-2">Definition of the CSV Format</a>. <i>Internet Engineering Task Force</i>. Retrieved September 25, 2020.
+<a href = "https://tools.ietf.org/html/rfc4180#section-2">Definition of the CSV Format</a>. Internet Engineering Task Force. Retrieved September 25, 2020.
 </li>
 
 <li>
 <a id = "2">[2]</a>
-<a href = "http://www.ati.ac.at/~neutropt/scattering/table.html">Neutron Scattering Lengths</a>. <i>Vienna University of Technology</i>. Retrieved September 25, 2020.
+<a href = "http://www.ati.ac.at/~neutropt/scattering/table.html">Neutron Scattering Lengths</a>. Vienna University of Technology. Retrieved September 25, 2020.
 </li>
 
 <li>
 <a id = "3">[3]</a>
-Aki Ariga <a href = "https://github.com/chezou/tabula-py">tabula-py</a>. <i>github.com/chezou</i>. Retrieved September 25, 2020.
+Ariga A. <a href = "https://github.com/chezou/tabula-py">tabula-py</a>. <i>github.com/chezou</i>. Retrieved September 25, 2020.
 </li>
 
 ## Parenthetical:
-For how to use tabula's method "read_pdf": https://stackoverflow.com/a/49562555
+For how to use tabula's method "read_pdf": https://stackoverflow.com/a/49562555 \n
 For how to resolve the issue "modules 'tabula' has no attribute 'read_pdf'": https://stackoverflow.com/a/60532664
 For why method 'read_pdf' was not included in tabula: https://stackoverflow.com/a/49997114
 For another reason why 'read_pdf' was not working with tabula: https://stackoverflow.com/a/54123725
