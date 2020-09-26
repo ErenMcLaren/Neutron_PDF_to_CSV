@@ -10,7 +10,7 @@ The purpose of this conversion of this PDF to CSV format is to obtain the exact 
 
 Afterwards, the output CSV file was checked with the original PDF file. There remains no obvious method besides manually checking the numbers per row to verify that the conversion was successful. After verifying that the values in five rows randomly-selected from the CSV files matched exactly their counterparts in the PDF file, it was assumed that the rest of the CSV file copied all the information correctly. Empty cells in the PDF are empty in the corresponding CSV file, preserving the dimension of the data structure. Should there be a way to more rigorously approaching this problem, please contact me.
 
-This project concludes with a reflection: consider storing experimental data both in a PDF format, for final copies, and a machine-readable format like a CSV, to be used in data science applications.
+This project concludes with a reflection: consider storing experimental data both in a PDF format, for final copies, and a machine-readable format, like a CSV, to be used in data science applications.
 
 ## References
 <li>
@@ -25,7 +25,7 @@ This project concludes with a reflection: consider storing experimental data bot
 
 <li>
 <a id = "3">[3]</a>
-Ariga A. <a href = "https://github.com/chezou/tabula-py">tabula-py</a>. <i>github.com/chezou</i>. Retrieved September 25, 2020.
+Ariga A. (2020) <a href = "https://github.com/chezou/tabula-py">tabula-py</a>. <i>github.com/chezou</i>. Retrieved September 25, 2020.
 </li>
 
 ## Parenthetical:
