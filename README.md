@@ -22,7 +22,7 @@ sigma_{abs}: absorption cross-section (barns, 1e-24 cm^-2) <br />
 
 The purpose of this conversion of this PDF to CSV format is to obtain the exact information enclosed in the PDF in a more machine-readable format. The quickest method to perform this conversion was to look for existing Python packages that already had this capability. The first package that came up was <a href = "https://tabula.technology/">tabula</a>. tabula has two methods that were relevant for this task: `read_pdf` and `convert_into` [[4]](#4). Converting the PDF file into CSV was performed in two lines of code (#1, importing tabula, #2, using `convert_into`.)
 
-Primarily, the parameter `pages` in `convert_into` was set to `"1"` just to test the efficacy of the method. After visually comfirming that the output CSV matched the input PDF data by comparing the numbers in each cell of five randomly-selecting rows, `pages` was changed to `"all"`. As a demonstration, the first six rows of the PDF file are:
+Primarily, the parameter `pages` in `convert_into` was set to `"1"` just to test the efficacy of the method. It was confirmed that the output CSV matched the input PDF data by comparing the numbers in each cell of five randomly-selecting rows. As a demonstration, the first six rows of the PDF file are:
 
 |ZSymbA|p or T_{1/2}|I|b_{c}|b_{+}|b_{-}|c|\sigma_{coh}|\sigma_{inc}|\sigma_{scatt}|\sigma_{abs}|
 |:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|
@@ -41,7 +41,7 @@ and the first six rows of the CSV file are:
 `1-H-2,0.0149,1,6.674(6),9.53(3),0.975(60),,5.592(7),2.05(3),7.64(3),0.000519(7)` <br />
 `1-H-3,12.26 Y,1/2,4.792(27),4.18(15),6.56(37),,2.89(3),0.14(4),3.03(5),< 6.0E-6` <br />
                                                                                                                                                          
-Afterwards, the output CSV file was checked with the original PDF file. There remains no obvious method besides manually checking the numbers per row to verify that the conversion was successful. After verifying that the values in five rows randomly-selected from the CSV files matched exactly their counterparts in the PDF file, it was assumed that the rest of the CSV file copied all the information correctly. Empty cells in the PDF are empty in the corresponding CSV file, preserving the dimension of the data structure. Should there be a way to more rigorously approaching this problem, please contact me.
+At this point, `pages` was changed to `"all"`, and the final CSV file was obtained. Once again, the final CSV file was checked with the original PDF file. There remains no obvious method besides manually checking the numbers per row to verify that all the values in all 10 pages of the PDF remain the exact same. After verifying that the values in five rows randomly-selected from the final CSV file matched exactly their counterparts in the PDF file, it was assumed that the rest of the CSV file copied all the information correctly. Empty cells in the PDF are empty in the corresponding CSV file, preserving the dimension of the data structure. Should there be a way to more rigorously approaching this problem, please contact me.
 
 This project concludes with a reflection: consider storing experimental data both in a PDF format, for final copies, and a machine-readable format, like a CSV, to be used in data science applications.
 
