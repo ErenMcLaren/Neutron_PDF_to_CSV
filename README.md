@@ -22,6 +22,12 @@ sigma_{abs}: absorption cross-section (barns, 1e-24 cm^-2) <br />
 
 The purpose of this conversion of this PDF to CSV format is to obtain the exact information enclosed in the PDF in a more machine-readable format. The quickest method to perform this conversion was to look for existing Python packages that already had this capability. The first package that came up was <a href = "https://tabula.technology/">tabula</a>. tabula has two methods that were relevant for this task: `read_pdf` and `convert_into` [[4]](#4). Converting the PDF file into CSV was performed in two lines of code (#1, importing tabula, #2, using `convert_into`.)
 
+Primarily, the parameter `pages` in `convert_into` was set to `"1"` just to test the efficacy of the method. After visually comfirming that the output CSV matched the input PDF data by comparing the numbers in each cell of five randomly-selecting rows, `pages` was changed to `"all"`. The first six rows of the CSV file are:
+| Syntax      | Description | Test Text     |
+| :---        |    :----:   |          ---: |
+| Header      | Title       | Here's this   |
+| Paragraph   | Text        | And more      |
+
 Afterwards, the output CSV file was checked with the original PDF file. There remains no obvious method besides manually checking the numbers per row to verify that the conversion was successful. After verifying that the values in five rows randomly-selected from the CSV files matched exactly their counterparts in the PDF file, it was assumed that the rest of the CSV file copied all the information correctly. Empty cells in the PDF are empty in the corresponding CSV file, preserving the dimension of the data structure. Should there be a way to more rigorously approaching this problem, please contact me.
 
 This project concludes with a reflection: consider storing experimental data both in a PDF format, for final copies, and a machine-readable format, like a CSV, to be used in data science applications.
