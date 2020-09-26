@@ -29,8 +29,8 @@ Ariga A. <a href = "https://github.com/chezou/tabula-py">tabula-py</a>. <i>githu
 </li>
 
 ## Parenthetical:
-For how to use tabula's method "read_pdf": https://stackoverflow.com/a/49562555 \n
-For how to resolve the issue "modules 'tabula' has no attribute 'read_pdf'": https://stackoverflow.com/a/60532664
+For how to use tabula's method "read_pdf": https://stackoverflow.com/a/49562555 \\
+For how to resolve the issue "modules 'tabula' has no attribute 'read_pdf'": https://stackoverflow.com/a/60532664 \\
 For why method 'read_pdf' was not included in tabula: https://stackoverflow.com/a/49997114
 For another reason why 'read_pdf' was not working with tabula: https://stackoverflow.com/a/54123725
 For how to respond to 'y/n' prompts in Jupyter Notebook: https://stackoverflow.com/a/39841757
