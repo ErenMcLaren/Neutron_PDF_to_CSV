@@ -1,7 +1,12 @@
+"""
+    Converting a PDF to CSV using tabula module.
+    - by: github.com/ErenMcLaren
+"""
+
 import tabula
 
 """ 
-    Helpful StackOverflow stuff:
+    Helpful StackOverflow stuff (see README.md):
 # https://stackoverflow.com/a/49562555
 # https://stackoverflow.com/a/60532664
 # https://stackoverflow.com/a/49997114
