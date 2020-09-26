@@ -25,8 +25,11 @@ The purpose of this conversion of this PDF to CSV format is to obtain the exact 
 Primarily, the parameter `pages` in `convert_into` was set to `"1"` just to test the efficacy of the method. After visually comfirming that the output CSV matched the input PDF data by comparing the numbers in each cell of five randomly-selecting rows, `pages` was changed to `"all"`. As a demonstration, the first six rows of the PDF file are:
 |ZSymbA|p or T_{1/2}|I|b_{c}|b_{+}|b_{-}|c|\sigma_{coh}|\sigma_{inc}|\sigma_{scatt}|\sigma_{abs}|
 |:---|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|---:|
-|X|X|X|X|X|X|X|X|X|X|X|
-|X|X|X|X|X|X|X|X|X|X|X|
+|<b>0-N-1</b>|<b>10.3 MIN</b>|<b>1/2<\b>|<b>-37.0(6)</b>|<b>0</b>|<b>-37.0(6)</b>||<b>43.01(2)</b>||<b>43.01(2)</b>|<b>0</b>|
+  |<b>1-H/b>|||<b>-3.7409(11)</b>||||<b>1.7568(10)</b>|<b>80.26(6)</b>|<b>43.01(2)</b>|<b>82.02(6)</b>|<b>0.3326(7)</b>|
+|1-H-1|<b>10.3 MIN</b>|<b>1/2<\b>|<b>-37.0(6)</b>|<b>0</b>|<b>-37.0(6)</b>||<b>43.01(2)</b>||<b>43.01(2)</b>|<b>0</b>|
+|1-N-2|<b>10.3 MIN</b>|<b>1/2<\b>|<b>-37.0(6)</b>|<b>0</b>|<b>-37.0(6)</b>||<b>43.01(2)</b>||<b>43.01(2)</b>|<b>0</b>|
+|1-H-3</b>|<b>10.3 MIN</b>|<b>1/2<\b>|<b>-37.0(6)</b>|<b>0</b>|<b>-37.0(6)</b>||<b>43.01(2)</b>||<b>43.01(2)</b>|<b>0</b>|
 
 Afterwards, the output CSV file was checked with the original PDF file. There remains no obvious method besides manually checking the numbers per row to verify that the conversion was successful. After verifying that the values in five rows randomly-selected from the CSV files matched exactly their counterparts in the PDF file, it was assumed that the rest of the CSV file copied all the information correctly. Empty cells in the PDF are empty in the corresponding CSV file, preserving the dimension of the data structure. Should there be a way to more rigorously approaching this problem, please contact me.
 
