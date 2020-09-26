@@ -1,5 +1,5 @@
 # Neutron_PDF_to_CSV
-Purpose: convert PDF of important data about neutron scattering lengths and cross sections to more-convenient CSV format.
+Purpose: convert PDF of important data about neutron scattering lengths and cross sections to CSV format.
 
 ## About
 Comma-separated values (CSV) files are a text file that usually uses a comma to separate each unique value [[1]](#1). They are often used as data-storage and tabulation files.
