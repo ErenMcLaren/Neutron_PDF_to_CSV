@@ -4,7 +4,7 @@ Purpose: convert PDF of important data about neutron scattering lengths and cros
 ## About
 Comma-separated values (CSV) files are a text file that usually uses a comma to separate each unique value [[1]](#1). They are often used as data-storage and tabulation files.
 
-The PDF in question is a 10-page, 110kb file available <a href = "http://www.ati.ac.at/~neutropt/scattering/Scattering_lengths_table_20010419.pdf">here</a>, provided by the Vienna University of Technology (click <a href = "https://www.tuwien.at/en/"></a> for English.) [[2]](#2).
+The PDF in question is a 10-page, 110kb file available <a href = "http://www.ati.ac.at/~neutropt/scattering/Scattering_lengths_table_20010419.pdf">here</a>, provided by the Vienna University of Technology (click <a href = "https://www.tuwien.at/en/"></a> for English) [[2]](#2).
 
 The purpose of this conversion of this PDF to CSV format is to obtain the exact information enclosed in the PDF in a more machine-readable format. The quickest method to perform this conversion was to look for existing Python packages that already had this capability. The first package that came up was <a href = "https://tabula.technology/">tabula</a>. tabula has two methods that were relevant for this task: `read_pdf` and `convert_into` [[3]](#3). Converting the PDF file into CSV was performed in two lines of code (#1, importing tabula, #2, using `convert_into`.)
 
@@ -23,7 +23,10 @@ This project concludes with a reflection: consider storing experimental data bot
 <a href = "http://www.ati.ac.at/~neutropt/scattering/table.html">Neutron Scattering Lengths</a>. <i>Vienna University of Technology</i>. Retrieved September 25, 2020.
 </li>
 
-https://pypi.org/project/tabula-py/
+<li>
+<a id = "3">[3]</a>
+Aki Ariga <a href = "https://github.com/chezou/tabula-py">tabula-py</a>. <i>github.com/chezou</i>. Retrieved September 25, 2020.
+</li>
 
 ## Parenthetical:
 For how to use tabula's method "read_pdf": https://stackoverflow.com/a/49562555
