@@ -78,3 +78,6 @@ For how to resolve the issue "modules 'tabula' has no attribute 'read_pdf'": htt
 For why method 'read_pdf' was not included in tabula: https://stackoverflow.com/a/49997114 <br />
 For another reason why 'read_pdf' was not working with tabula: https://stackoverflow.com/a/54123725 <br />
 For how to respond to 'y/n' prompts in Jupyter Notebook: https://stackoverflow.com/a/39841757 
+
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
