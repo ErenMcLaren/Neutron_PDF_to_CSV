@@ -1,5 +1,9 @@
 # Neutron_PDF_to_CSV
-Purpose: convert PDF of important data about neutron scattering lengths and cross sections to CSV format. \(\Sigma_{i=0}^{N}\)
+Purpose: convert PDF of important data about neutron scattering lengths and cross sections to CSV format. 
+
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+\[\Sigma_{i=0}^{N}\]
 
 ## About
 Comma-separated values (CSV) files are a text file that usually uses a comma to separate each unique value [[1]](#1). They are often used as data-storage and tabulation files.
@@ -78,6 +82,3 @@ For how to resolve the issue "modules 'tabula' has no attribute 'read_pdf'": htt
 For why method 'read_pdf' was not included in tabula: https://stackoverflow.com/a/49997114 <br />
 For another reason why 'read_pdf' was not working with tabula: https://stackoverflow.com/a/54123725 <br />
 For how to respond to 'y/n' prompts in Jupyter Notebook: https://stackoverflow.com/a/39841757 
-
-<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
