@@ -6,14 +6,14 @@ Comma-separated values (CSV) files are a text file that usually uses a comma to 
 
 The PDF in question is a 10-page, 110kb file available <a href = "http://www.ati.ac.at/~neutropt/scattering/Scattering_lengths_table_20010419.pdf">here</a>, provided by the Vienna University of Technology (<a href = "https://www.tuwien.at/en/">click</a> for English [[3]](#3)) [[2]](#2). The webpage on which this file is available was last updated 02/14/2001 [[2]](#2).
 
-The column headers are described in the first paragraph of [[2]](#2), but to reiterate: <br />
+The majority of the column headers are described in the first paragraph of [[2]](#2) and in Table 1 in [[5]](#5), but to reiterate: <br />
 
 ZSymbA: nuclide charge number Z, element symbol Symb, mass number A <br />
 P or T_{1/2}: natural abundance OR "percent"/half-life (MIN: minutes, Y: years) <br />
 I: nuclear spin <br /> 
 b_{c}: bound-coherent scattering lengths, (fm, femptometers, 1e-15) <br /> 
-b+: spin-dependent scattering lengths for I + 1/2 (fm, femptometers, 1e-15) <br /> 
-b-: spin-dependent scattering lengths for I - 1/2 (fm, femptometers, 1e-15) <br />
+b_{+}: spin-dependent scattering lengths for I + 1/2 (fm, femptometers, 1e-15) <br /> 
+b_{-}: spin-dependent scattering lengths for I - 1/2 (fm, femptometers, 1e-15) <br />
 c: ?? (if you know this, please contact me.) <br />
 sigma_{coh}: coherent cross-section (barns, 1e-24 cm^-2) <br />
 sigma_{inc}: incoherent cross-section (barns, 1e-24 cm^-2) <br />
@@ -64,7 +64,12 @@ This project concludes with a reflection: consider storing experimental data bot
 
 <li>
 <a id = "4">[4]</a>
-Ariga A. (2020) <a href = "https://github.com/chezou/tabula-py">tabula-py</a>. <i>github.com/chezou</i>. Retrieved September 25, 2020.
+Ariga A. (2020) <a href = "https://www.tandfonline.com/doi/abs/10.1080/10448639208218770">tabula-py</a>. <i>github.com/chezou</i>. Retrieved September 25, 2020.
+</li>
+
+<li>
+<a id = "5">[5]</a>
+Varley F. Sears (1992) <a href = "10.1080/10448639208218770">Neutron scattering lengths and cross sections</a>. Neutron scattering lengths and cross sections, <i>Neutron News</i>,<b>3:3</b>, 26-37. Retrieved September 27, 2020.
 </li>
 
 ## Parenthetical:
