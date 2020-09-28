@@ -1,10 +1,6 @@
 # Neutron_PDF_to_CSV
 Purpose: convert PDF of important data about neutron scattering lengths and cross sections to CSV format. 
 
-<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-\[\Sigma_{i=0}^{N}\]
-
 ## About
 Comma-separated values (CSV) files are a text file that usually uses a comma to separate each unique value [[1]](#1). They are often used as data-storage and tabulation files.
 
