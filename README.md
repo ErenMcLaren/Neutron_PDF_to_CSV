@@ -1,4 +1,4 @@
-# Neutron_PDF_to_CSV
+# Neutron_Scattering_Lengths_PDF_to_CSV
 Purpose: convert PDF of important data about neutron scattering lengths and cross sections to CSV format. 
 
 ## About
